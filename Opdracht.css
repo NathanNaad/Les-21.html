@@ -1,0 +1,93 @@
+header{
+    background-color: #2b2b2b;
+    width: 100%;
+    height: 200px;
+    }
+
+    
+    h1 {
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    
+    table, th, td {
+        border: 1px solid black;
+    }
+    
+    th, td {
+        padding: 8px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+    
+    /* Adding a gradient color to each cell based on a yellow gradient */
+    td {
+        background: linear-gradient(to right, #FFEB3B, #FFEB8F, #FFD54F, #FFCA28, #FFA000);
+        color: #000;
+        font-weight: bold;
+    }
+    
+    /* Different shades for each row */
+    #row1col1 {
+        background: linear-gradient(to right, #FFEB3B, #FFEB8F);
+    }
+    #row1col2 {
+        background: linear-gradient(to right, #FFD54F, #FFCA28);
+    }
+    #row1col3 {
+        background: linear-gradient(to right, #FFEB8F, #FFCA28);
+    }
+    #row1col4 {
+        background: linear-gradient(to right, #FFEB3B, #FFEB8F);
+    }
+    
+    #row2col1 {
+        background: linear-gradient(to right, #FFD54F, #FFCA28);
+    }
+    #row2col2 {
+        background: linear-gradient(to right, #FFEB3B, #FFD54F);
+    }
+    #row2col3 {
+        background: linear-gradient(to right, #FFCA28, #FFA000);
+    }
+    #row2col4 {
+        background: linear-gradient(to right, #FFEB3B, #FFD54F);
+    }
+    
+    #row3col1 {
+        background: linear-gradient(to right, #FFD54F, #FFEB8F);
+    }
+    #row3col2 {
+        background: linear-gradient(to right, #FFEB3B, #FFCA28);
+    }
+    #row3col3 {
+        background: linear-gradient(to right, #FFEB8F, #FFD54F);
+    }
+    #row3col4 {
+        background: linear-gradient(to right, #FFEB3B, #FFEB8F);
+    }
+    
+    #row4col1 {
+        background: linear-gradient(to right, #FFCA28, #FFEB3B);
+    }
+    #row4col2 {
+        background: linear-gradient(to right, #FFEB8F, #FFD54F);
+    }
+    #row4col3 {
+        background: linear-gradient(to right, #FFCA28, #FFA000);
+    }
+    #row4col4 {
+        background: linear-gradient(to right, #FFD54F, #FFEB3B);
+    }
+    
+    footer{
+        background-color: #5a0000;
+        width: 100%;
+        height: 200px;
+        }
